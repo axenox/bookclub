@@ -1,0 +1,24 @@
+{
+    "name": "axenox/bookclub",
+    "require": {
+        "exface/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\axenox\\BookClub\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Config/",
+            "/Translations/",
+            "/Model/"
+        ]
+    },
+    "extra": {
+        "app": {
+            "app_uid": "0x11eabf1bdc886dc6bf1b025041000001",
+            "app_alias": "axenox.BookClub",
+            "model_md5": "8aeba340808be9d474ec84f901f656d7",
+            "model_timestamp": "2020-09-10 09:16:26"
+        }
+    }
+}
