@@ -11,7 +11,7 @@
     "created_by_user_selector": "0x31000000000000000000000000000000",
     "created_on": "2020-09-09 19:41:17",
     "modified_by_user_selector": "0x31000000000000000000000000000000",
-    "modified_on": "2020-09-10 07:07:32",
+    "modified_on": "2020-09-11 16:36:25",
     "contents": {
         "widget_type": "DataTableResponsive",
         "object_alias": "axenox.BookClub.book",
@@ -23,7 +23,11 @@
                 "attribute_alias": "isbn"
             },
             {
-                "attribute_alias": "book_category__category"
+                "attribute_alias": "book_category__category",
+                "input_widget": {
+                    "widget_type": "InputComboTable",
+                    "multi_select": true
+                }
             }
         ],
         "columns": [
@@ -35,6 +39,30 @@
             },
             {
                 "attribute_alias": "book_category__category__LABEL:LIST_DISTINCT"
+            },
+            {
+                "attribute_alias": "year",
+                "visibility": "optional"
+            },
+            {
+                "attribute_alias": "author",
+                "visibility": "optional"
+            },
+            {
+                "attribute_alias": "publisher",
+                "visibility": "optional"
+            },
+            {
+                "attribute_alias": "age_min",
+                "visibility": "optional"
+            },
+            {
+                "attribute_alias": "age_max",
+                "visibility": "optional"
+            },
+            {
+                "attribute_alias": "owner_rating",
+                "visibility": "optional"
             },
             {
                 "attribute_alias": "owner__LABEL"
@@ -50,6 +78,9 @@
             },
             {
                 "action_alias": "exface.Core.ShowObjectCopyDialog"
+            },
+            {
+                "action_alias": "axenox.BookClub.ShowBookAddCategoryDialog"
             },
             {
                 "action_alias": "exface.Core.DeleteObject",

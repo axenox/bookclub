@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS `book` (
   `year` int(4) DEFAULT NULL,
   `age_min` int(2) DEFAULT NULL,
   `age_max` int(2) DEFAULT NULL,
+  `pages` int(11) DEFAULT NULL,
   `owner_id` int(11) NOT NULL,
   `owner_comment` varchar(200) NOT NULL DEFAULT '',
   `owner_rating` int(1) DEFAULT NULL,
