@@ -14,7 +14,7 @@ class BookClubApp extends App
         $sqlInstaller = new MySqlDatabaseInstaller($this->getSelector());        
         $sqlInstaller
         ->setFoldersWithMigrations(['InitDB','Migrations'])
-        ->setDataSourceSelector('0x11eab5facf6370bab5fa0205857feb80');
+        ->setDataSourceSelector('0x11ea8d0cb1ef92b08d0c025041000001');
         $installer->addInstaller($sqlInstaller);
         
         return $installer;
