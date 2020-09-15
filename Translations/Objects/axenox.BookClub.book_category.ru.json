@@ -1,0 +1,8 @@
+{
+    "NAME": "Категория книги",
+    "SHORT_DESCRIPTION": null,
+    "ATTRIBUTE.BOOK.NAME": "Книга",
+    "ATTRIBUTE.BOOK.SHORT_DESCRIPTION": null,
+    "ATTRIBUTE.CATEGORY.NAME": "Категория",
+    "ATTRIBUTE.CATEGORY.SHORT_DESCRIPTION": null
+}
