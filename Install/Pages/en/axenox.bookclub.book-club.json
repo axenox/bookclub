@@ -11,7 +11,7 @@
     "created_by_user_selector": "0x31000000000000000000000000000000",
     "created_on": "2020-09-09 19:41:17",
     "modified_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
-    "modified_on": "2020-10-02 14:29:01",
+    "modified_on": "2020-10-07 15:24:39",
     "contents": {
         "widget_type": "DataTableResponsive",
         "object_alias": "axenox.BookClub.book",
@@ -49,6 +49,14 @@
                 "attribute_alias": "age_min",
                 "widget_type": "RangeFilter",
                 "visibility": "optional"
+            },
+            {
+                "attribute_alias": "owner_comment",
+                "input_widget": {
+                    "widget_type": "Input"
+                },
+                "visibility": "optional",
+                "include_in_quick_search": true
             }
         ],
         "columns": [
@@ -59,7 +67,8 @@
                 "attribute_alias": "series"
             },
             {
-                "attribute_alias": "book_category__category__LABEL:LIST_DISTINCT"
+                "attribute_alias": "book_category__category__LABEL:LIST_DISTINCT",
+                "caption": "Categories"
             },
             {
                 "attribute_alias": "year",
@@ -105,7 +114,11 @@
                 "action_alias": "exface.Core.ShowObjectCopyDialog"
             },
             {
-                "action_alias": "axenox.BookClub.ShowBookAddCategoryDialog"
+                "action": {
+                    "alias": "axenox.BookClub.ShowBookAddCategoryDialog",
+                    "input_rows_min": 1,
+                    "input_rows_max": 1
+                }
             },
             {
                 "action_alias": "exface.Core.DeleteObject",
