@@ -1,0 +1,11 @@
+{
+    "NAME": "Открыть",
+    "SHORT_DESCRIPTION": null,
+    "CONFIG_UXON.CAPTION.BOOK": "Книга",
+    "CONFIG_UXON.CAPTION.DESCRIPTION": "Описание",
+    "CONFIG_UXON.CAPTION.AGE": "Подходит для возраста",
+    "CONFIG_UXON.CAPTION.CATEGORIES": "Категории",
+    "CONFIG_UXON.CAPTION.ADD": "Добавить",
+    "CONFIG_UXON.CAPTION.REMOVE": "Убрать",
+    "CONFIG_UXON.CAPTION.HISTORY": "История"
+}
