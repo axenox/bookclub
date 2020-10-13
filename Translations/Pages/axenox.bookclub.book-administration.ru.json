@@ -1,0 +1,7 @@
+{
+    "NAME": "Редактор книг",
+    "DESCRIPTION": "Редактор каталога книг (только для админов!)",
+    "INTRO": null,
+    "CONTENT.CAPTION.CATEGORIES": "Категории",
+    "CONTENT.CAPTION.ADD_BOOK": "Добавить"
+}

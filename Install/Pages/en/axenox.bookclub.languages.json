@@ -2,7 +2,7 @@
     "uid": "0x11ebb55739c33b0ab557005056bee7c0",
     "alias_with_namespace": "axenox.bookclub.languages",
     "menu_parent_page_selector": "0x11ea987d6df3bed6987d847beb4a5184",
-    "menu_index": 4,
+    "menu_index": 5,
     "menu_visible": true,
     "name": "Languages",
     "description": "",
@@ -11,7 +11,7 @@
     "created_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
     "created_on": "2020-10-02 10:30:00",
     "modified_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
-    "modified_on": "2020-10-12 07:36:22",
+    "modified_on": "2020-10-12 10:13:00",
     "contents": {
         "widget_type": "DataTable",
         "object_alias": "axenox.BookClub.language",

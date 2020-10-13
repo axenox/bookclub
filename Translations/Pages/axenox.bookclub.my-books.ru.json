@@ -1,6 +1,6 @@
 {
-    "NAME": "Поиск книг",
-    "DESCRIPTION": "Все доступные книги в клубе",
+    "NAME": "Мои книги",
+    "DESCRIPTION": "Мои книги и те, что я взял(а) почитать",
     "INTRO": null,
     "CONTENT.CAPTION.CATEGORIES": "Категории",
     "CONTENT.CAPTION.ADD_BOOK": "Добавить книгу"

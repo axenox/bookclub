@@ -1,26 +1,27 @@
 {
-    "uid": "0x11ebb9df9da5d306b9df005056bee7c0",
-    "alias_with_namespace": "axenox.bookclub.my-books",
+    "uid": "0x11eb96ff7e55f95296ff005056bee7c0",
+    "alias_with_namespace": "axenox.bookclub.book-administration",
     "menu_parent_page_selector": "0x11ea987d6df3bed6987d847beb4a5184",
-    "menu_index": 0,
+    "menu_index": 2,
     "menu_visible": true,
-    "name": "My Books",
-    "description": "My own books and books I'v loaned",
+    "name": "Book Administration",
+    "description": "Manage all books (admins only!)",
     "intro": "",
     "replaces_page_selector": null,
     "created_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
-    "created_on": "2020-10-12 07:36:18",
+    "created_on": "2020-10-12 10:12:54",
     "modified_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
-    "modified_on": "2020-10-12 10:10:48",
+    "modified_on": "2020-10-12 10:14:55",
     "contents": {
         "widget_type": "DataTableResponsive",
         "object_alias": "axenox.BookClub.book",
         "filters": [
             {
-                "attribute_alias": "currently_at",
-                "value": "=User('member__name')",
-                "disabled": true,
-                "comparator": "=="
+                "attribute_alias": "title"
+            },
+            {
+                "attribute_alias": "isbn",
+                "include_in_quick_search": true
             },
             {
                 "attribute_alias": "book_category__category",
@@ -47,11 +48,6 @@
             {
                 "attribute_alias": "age_min",
                 "widget_type": "RangeFilter",
-                "visibility": "optional"
-            },
-            {
-                "attribute_alias": "isbn",
-                "include_in_quick_search": true,
                 "visibility": "optional"
             },
             {
@@ -121,10 +117,14 @@
                 "caption": "Add book"
             },
             {
+                "action_alias": "axenox.BookClub.ShowBookTakeDialog"
+            },
+            {
                 "action_alias": "exface.Core.ShowObjectEditDialog"
             },
             {
-                "action_alias": "exface.Core.ShowObjectCopyDialog"
+                "action_alias": "exface.Core.ShowObjectCopyDialog",
+                "visibility": "optional"
             },
             {
                 "action": {
