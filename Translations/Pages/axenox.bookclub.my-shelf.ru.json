@@ -1,0 +1,7 @@
+{
+    "NAME": "Моя полка",
+    "DESCRIPTION": "Книги, которые сейчас у меня",
+    "INTRO": null,
+    "CONTENT.CAPTION.CATEGORIES": "Категории",
+    "CONTENT.CAPTION.ADD_BOOK": "Добавить книгу"
+}

@@ -1,0 +1,7 @@
+{
+    "NAME": "Одолженные книги",
+    "DESCRIPTION": "Книги, одолженные у других",
+    "INTRO": null,
+    "CONTENT.CAPTION.TAKEN_ON": "Когда взял(а)",
+    "CONTENT.CAPTION.CATEGORIES": "Категории"
+}

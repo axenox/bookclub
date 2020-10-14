@@ -1,0 +1,20 @@
+{
+    "uid": "0x11eb85dd42d68f8085dd005056bee7c0",
+    "alias_with_namespace": "axenox.bookclub.administration",
+    "menu_parent_page_selector": "0x11ea987d6df3bed6987d847beb4a5184",
+    "menu_index": 5,
+    "menu_visible": true,
+    "name": "Administration",
+    "description": "Manage catalogue, members, categories, etc.",
+    "intro": "",
+    "replaces_page_selector": null,
+    "created_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
+    "created_on": "2020-10-14 08:50:07",
+    "modified_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
+    "modified_on": "2020-10-14 08:54:25",
+    "contents": {
+        "widget_type": "NavTiles",
+        "object_alias": "exface.Core.PAGE",
+        "depth": 1
+    }
+}

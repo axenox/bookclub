@@ -1,5 +1,15 @@
 {
     "NAME": "Книжный клуб",
     "DESCRIPTION": null,
-    "INTRO": null
+    "INTRO": null,
+    "CONTENT.SUBTITLE.BOOKS_I_HAVE": " ",
+    "CONTENT.CAPTION.MY_SHELF": "Книги у меня",
+    "CONTENT.SUBTITLE.BOOKS_I_OWN": " ",
+    "CONTENT.CAPTION.OWN_BOOKS": "Мои книги",
+    "CONTENT.SUBTITLE.BOOKS_I_BORROWED": " ",
+    "CONTENT.CAPTION.BORROWED": "Взял(а) почитать",
+    "CONTENT.SUBTITLE.BOOKS_I_GAVE_OTHERS": " ",
+    "CONTENT.CAPTION.LOANED_TO_OTHERS": "Дал(а) другим",
+    "CONTENT.SUBTITLE.ENTIRE_CATALOGUE": "Весь каталог",
+    "CONTENT.CAPTION.SEARCH_BOOKS": "Поиск книг"
 }
