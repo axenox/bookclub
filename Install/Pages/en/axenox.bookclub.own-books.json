@@ -11,7 +11,7 @@
     "created_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
     "created_on": "2020-10-14 08:35:56",
     "modified_by_user_selector": "0x11ea985377357cde9853005056bee7c0",
-    "modified_on": "2020-10-14 09:05:20",
+    "modified_on": "2020-10-15 10:59:26",
     "contents": {
         "widget_type": "DataTableResponsive",
         "object_alias": "axenox.BookClub.book",
@@ -21,6 +21,9 @@
                 "value": "=User('member__id')",
                 "disabled": true,
                 "comparator": "=="
+            },
+            {
+                "attribute_alias": "title"
             },
             {
                 "attribute_alias": "book_category__category",
@@ -56,6 +59,10 @@
                 },
                 "visibility": "optional",
                 "include_in_quick_search": true
+            },
+            {
+                "attribute_alias": "do_not_loan",
+                "visibility": "optional"
             }
         ],
         "columns": [
@@ -73,8 +80,7 @@
                 "caption": "Categories"
             },
             {
-                "attribute_alias": "year",
-                "visibility": "optional"
+                "attribute_alias": "year"
             },
             {
                 "attribute_alias": "publisher",
@@ -93,7 +99,10 @@
                 "visibility": "optional"
             },
             {
-                "attribute_alias": "currently_at"
+                "attribute_alias": "loaned_to_name"
+            },
+            {
+                "attribute_alias": "do_not_loan"
             }
         ],
         "sorters": [
@@ -118,6 +127,10 @@
                 "action_alias": "exface.Core.ShowObjectCopyDialog"
             },
             {
+                "action_alias": "axenox.BookClub.ShowBookCreateGoogleBooksDialog"
+            },
+            {
+                "visibility": "optional",
                 "action": {
                     "alias": "axenox.BookClub.ShowBookAddCategoryDialog",
                     "input_rows_min": 1,

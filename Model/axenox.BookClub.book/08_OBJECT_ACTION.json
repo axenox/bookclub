@@ -74,6 +74,22 @@
             "APP": "0x11eabf1bdc886dc6bf1b025041000001",
             "USE_IN_OBJECT_BASKET_FLAG": "0",
             "DOCS": ""
+        },
+        {
+            "CREATED_ON": "2020-10-15 10:54:04",
+            "MODIFIED_ON": "2020-10-15 10:58:08",
+            "CREATED_BY_USER": "0x11ea985377357cde9853005056bee7c0",
+            "MODIFIED_BY_USER": "0x11ea985377357cde9853005056bee7c0",
+            "UID": "0x11eb9007bdc07e889007005056bee7c0",
+            "OBJECT": "0x11eab2edf08f18a0b2ed025041000001",
+            "ACTION_PROTOTYPE": "exface\/Core\/Actions\/ShowDialog.php",
+            "ALIAS": "ShowBookCreateGoogleBooksDialog",
+            "NAME": "Find on Google Books",
+            "SHORT_DESCRIPTION": "",
+            "CONFIG_UXON": "{\"widget\":{\"widget_type\":\"Dialog\",\"object_alias\":\"axenox.GoogleBooksConnector.BOOK\",\"maximized\":true,\"widgets\":[{\"widget_type\":\"DataTableResponsive\",\"paginator\":{\"count_all_rows\":true,\"page_size\":20},\"filters\":[{\"attribute_alias\":\"isbn\",\"include_in_quick_search\":true},{\"attribute_alias\":\"title\"},{\"attribute_alias\":\"authors\"},{\"attribute_alias\":\"language\"}],\"columns\":[{\"attribute_alias\":\"title\"},{\"attribute_alias\":\"authors:LIST\"},{\"attribute_alias\":\"publisher\"},{\"attribute_alias\":\"publishedYear\"},{\"attribute_alias\":\"language\"},{\"attribute_alias\":\"isbn\"},{\"attribute_alias\":\"pageCount\"},{\"attribute_alias\":\"description\",\"visibility\":\"hidden\"}],\"buttons\":[{\"caption\":\"Add to my books\",\"visibility\":\"promoted\",\"action\":{\"alias\":\"exface.Core.ShowObjectCreateDialog\",\"object_alias\":\"axenox.BookClub.book\",\"prefill_with_input_data\":true,\"input_mapper\":{\"to_object_alias\":\"axenox.BookClub.book\",\"column_to_column_mappings\":[{\"from\":\"title\",\"to\":\"title\"},{\"from\":\"publisher\",\"to\":\"publisher\"},{\"from\":\"publishedYear\",\"to\":\"year\"},{\"from\":\"pageCount\",\"to\":\"pages\"},{\"from\":\"authors:LIST\",\"to\":\"author\"},{\"from\":\"isbn\",\"to\":\"isbn\"},{\"from\":\"description\",\"to\":\"description_toc\"}]}}}]}]}}",
+            "APP": "0x11eabf1bdc886dc6bf1b025041000001",
+            "USE_IN_OBJECT_BASKET_FLAG": "0",
+            "DOCS": ""
         }
     ],
     "totals_rows": [],
