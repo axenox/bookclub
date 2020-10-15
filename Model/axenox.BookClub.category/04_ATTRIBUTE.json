@@ -169,9 +169,9 @@
     "rows": [
         {
             "CREATED_ON": "2020-09-09 17:14:38",
-            "MODIFIED_ON": "2020-09-09 20:16:13",
+            "MODIFIED_ON": "2020-10-14 17:08:05",
             "CREATED_BY_USER": "0x31000000000000000000000000000000",
-            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "MODIFIED_BY_USER": "0x11ea985377357cde9853005056bee7c0",
             "UID": "0x11ea8341f106c74c8341025041000001",
             "SORTABLEFLAG": "1",
             "FILTERABLEFLAG": "1",
@@ -201,8 +201,8 @@
             "EDITABLEFLAG": "1",
             "REQUIREDFLAG": "1",
             "RELATED_OBJ": "",
-            "SORTERPOS": null,
-            "SORTERDIR": "",
+            "SORTERPOS": "1",
+            "SORTERDIR": "ASC",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
             "DATA_ADDRESS_PROPS": null,
