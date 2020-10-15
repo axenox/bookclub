@@ -427,7 +427,7 @@
         },
         {
             "CREATED_ON": "2020-09-09 17:14:37",
-            "MODIFIED_ON": "2020-09-10 11:45:05",
+            "MODIFIED_ON": "2020-10-15 09:17:46",
             "CREATED_BY_USER": "0x31000000000000000000000000000000",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x11eaac09f0d2154cac09025041000001",
@@ -466,7 +466,7 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"200\"}"
+            "CUSTOM_DATA_TYPE": null
         },
         {
             "CREATED_ON": "2020-09-09 17:14:37",
@@ -857,7 +857,7 @@
         },
         {
             "CREATED_ON": "2020-10-07 15:44:48",
-            "MODIFIED_ON": "2020-10-07 15:49:41",
+            "MODIFIED_ON": "2020-10-15 09:17:25",
             "CREATED_BY_USER": "0x31000000000000000000000000000000",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x11ebacd607c20c6cacd6847beb4a5184",
@@ -896,7 +896,7 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"400\"}"
+            "CUSTOM_DATA_TYPE": null
         },
         {
             "CREATED_ON": "2020-10-13 11:39:21",
