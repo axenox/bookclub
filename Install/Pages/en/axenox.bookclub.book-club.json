@@ -122,8 +122,8 @@
                             "data": {
                                 "filters": [
                                     {
-                                        "attribute_alias": "available_for_loan",
-                                        "value": "1",
+                                        "attribute_alias": "do_not_loan",
+                                        "value": "0",
                                         "comparator": "=="
                                     }
                                 ]

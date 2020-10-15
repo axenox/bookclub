@@ -17,8 +17,8 @@
         "object_alias": "axenox.BookClub.book",
         "filters": [
             {
-                "attribute_alias": "available_for_loan",
-                "value": 1,
+                "attribute_alias": "do_not_loan",
+                "value": 0,
                 "comparator": "==",
                 "input_widget": {
                     "widget_type": "InputHidden"
