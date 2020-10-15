@@ -1,14 +1,16 @@
 {
-    "NAME": "Заем",
+    "NAME": "Одолженная книга",
     "SHORT_DESCRIPTION": null,
     "ATTRIBUTE.BOOK.NAME": "Книга",
     "ATTRIBUTE.BOOK.SHORT_DESCRIPTION": null,
     "ATTRIBUTE.COMMENT.NAME": "Комментарий",
     "ATTRIBUTE.COMMENT.SHORT_DESCRIPTION": null,
-    "ATTRIBUTE.GIVEN_BACK.NAME": "Когда вернул(а)",
+    "ATTRIBUTE.GIVEN_BACK.NAME": "Когда возвращена",
     "ATTRIBUTE.GIVEN_BACK.SHORT_DESCRIPTION": null,
-    "ATTRIBUTE.TAKEN.NAME": "Когда взял(а)",
+    "ATTRIBUTE.TAKEN.NAME": "Когда одолжена",
     "ATTRIBUTE.TAKEN.SHORT_DESCRIPTION": null,
-    "ATTRIBUTE.MEMBER.NAME": "Кто взял",
-    "ATTRIBUTE.MEMBER.SHORT_DESCRIPTION": null
+    "ATTRIBUTE.MEMBER.NAME": "Кому одолжена",
+    "ATTRIBUTE.MEMBER.SHORT_DESCRIPTION": null,
+    "ATTRIBUTE.RETURNED_FLAG.NAME": "Возвращена",
+    "ATTRIBUTE.RETURNED_FLAG.SHORT_DESCRIPTION": null
 }
