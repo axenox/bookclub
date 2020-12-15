@@ -70,7 +70,162 @@
             "ALIAS": "ShowBookInfoDialog",
             "NAME": "About",
             "SHORT_DESCRIPTION": "",
-            "CONFIG_UXON": "{\"object_alias\":\"axenox.BookClub.book\",\"input_mappers\":[{\"from_object_alias\":\"axenox.BookClub.loan\",\"column_to_column_mappings\":[{\"from\":\"book\",\"to\":\"id\"}]}],\"widget\":{\"widget_type\":\"Dialog\",\"object_alias\":\"axenox.BookClub.book\",\"header\":{\"widgets\":[{\"widget_type\":\"WidgetGroup\",\"widgets\":[{\"attribute_alias\":\"author\"},{\"attribute_alias\":\"series\"}]}]},\"widgets\":[{\"widget_type\":\"Tabs\",\"tabs\":[{\"caption\":\"Book\",\"readonly\":true,\"widgets\":[{\"widget_type\":\"WidgetGroup\",\"widgets\":[{\"attribute_alias\":\"description_toc\"},{\"attribute_alias\":\"book_category__category__LABEL:LIST_DISTINCT\",\"caption\":\"Categories\"},{\"attribute_alias\":\"owner__LABEL\"},{\"attribute_alias\":\"language__LABEL\"},{\"attribute_alias\":\"id\",\"widget_type\":\"InputHidden\",\"id\":\"id_field\"}]},{\"widget_type\":\"WidgetGroup\",\"widgets\":[{\"attribute_alias\":\"publisher\"},{\"attribute_alias\":\"year\"},{\"attribute_alias\":\"isbn\"},{\"attribute_alias\":\"book_size\"},{\"attribute_alias\":\"pages\"},{\"attribute_alias\":\"owner_rating\"},{\"attribute_alias\":\"owner_comment\"},{\"widget_type\":\"InlineGroup\",\"caption\":\"Age\",\"separator\":\"-\",\"widgets\":[{\"attribute_alias\":\"age_min\"},{\"attribute_alias\":\"age_max\"}]}]}]},{\"caption\":\"History\",\"widgets\":[{\"widget_type\":\"DataTableResponsive\",\"object_alias\":\"axenox.BookClub.loan\",\"filters\":[{\"attribute_alias\":\"book\",\"comparator\":\"==\",\"required\":true,\"input_widget\":{\"widget_type\":\"InputHidden\"}}],\"columns\":[{\"attribute_alias\":\"member__LABEL\"},{\"attribute_alias\":\"taken\"},{\"attribute_alias\":\"given_back\"},{\"attribute_alias\":\"comment\"}],\"sorters\":[{\"attribute_alias\":\"taken\",\"direction\":\"desc\"}],\"buttons\":[{\"action_alias\":\"axenox.BookClub.ShowBookTakeDialog\",\"input_widget_id\":\"id_field\"},{\"action_alias\":\"axenox.BookClub.ShowBookGiveBackDialog\"}]}]}]}]}}",
+            "CONFIG_UXON": {
+                "object_alias": "axenox.BookClub.book",
+                "input_mappers": [
+                    {
+                        "from_object_alias": "axenox.BookClub.loan",
+                        "column_to_column_mappings": [
+                            {
+                                "from": "book",
+                                "to": "id"
+                            }
+                        ]
+                    }
+                ],
+                "widget": {
+                    "widget_type": "Dialog",
+                    "object_alias": "axenox.BookClub.book",
+                    "header": {
+                        "widgets": [
+                            {
+                                "widget_type": "WidgetGroup",
+                                "widgets": [
+                                    {
+                                        "attribute_alias": "author"
+                                    },
+                                    {
+                                        "attribute_alias": "series"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "widgets": [
+                        {
+                            "widget_type": "Tabs",
+                            "tabs": [
+                                {
+                                    "caption": "Book",
+                                    "readonly": true,
+                                    "widgets": [
+                                        {
+                                            "widget_type": "WidgetGroup",
+                                            "widgets": [
+                                                {
+                                                    "attribute_alias": "description_toc"
+                                                },
+                                                {
+                                                    "attribute_alias": "book_category__category__LABEL:LIST_DISTINCT",
+                                                    "caption": "Categories"
+                                                },
+                                                {
+                                                    "attribute_alias": "owner__LABEL"
+                                                },
+                                                {
+                                                    "attribute_alias": "language__LABEL"
+                                                },
+                                                {
+                                                    "attribute_alias": "id",
+                                                    "widget_type": "InputHidden",
+                                                    "id": "id_field"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "widget_type": "WidgetGroup",
+                                            "widgets": [
+                                                {
+                                                    "attribute_alias": "publisher"
+                                                },
+                                                {
+                                                    "attribute_alias": "year"
+                                                },
+                                                {
+                                                    "attribute_alias": "isbn"
+                                                },
+                                                {
+                                                    "attribute_alias": "book_size"
+                                                },
+                                                {
+                                                    "attribute_alias": "pages"
+                                                },
+                                                {
+                                                    "attribute_alias": "owner_rating"
+                                                },
+                                                {
+                                                    "attribute_alias": "owner_comment"
+                                                },
+                                                {
+                                                    "widget_type": "InlineGroup",
+                                                    "caption": "Age",
+                                                    "separator": "-",
+                                                    "widgets": [
+                                                        {
+                                                            "attribute_alias": "age_min"
+                                                        },
+                                                        {
+                                                            "attribute_alias": "age_max"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "caption": "History",
+                                    "widgets": [
+                                        {
+                                            "widget_type": "DataTableResponsive",
+                                            "object_alias": "axenox.BookClub.loan",
+                                            "filters": [
+                                                {
+                                                    "attribute_alias": "book",
+                                                    "comparator": "==",
+                                                    "required": true,
+                                                    "input_widget": {
+                                                        "widget_type": "InputHidden"
+                                                    }
+                                                }
+                                            ],
+                                            "columns": [
+                                                {
+                                                    "attribute_alias": "member__LABEL"
+                                                },
+                                                {
+                                                    "attribute_alias": "taken"
+                                                },
+                                                {
+                                                    "attribute_alias": "given_back"
+                                                },
+                                                {
+                                                    "attribute_alias": "comment"
+                                                }
+                                            ],
+                                            "sorters": [
+                                                {
+                                                    "attribute_alias": "taken",
+                                                    "direction": "desc"
+                                                }
+                                            ],
+                                            "buttons": [
+                                                {
+                                                    "action_alias": "axenox.BookClub.ShowBookTakeDialog",
+                                                    "input_widget_id": "id_field"
+                                                },
+                                                {
+                                                    "action_alias": "axenox.BookClub.ShowBookGiveBackDialog"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
             "APP": "0x11eabf1bdc886dc6bf1b025041000001",
             "USE_IN_OBJECT_BASKET_FLAG": "0",
             "DOCS": ""
@@ -86,7 +241,108 @@
             "ALIAS": "ShowBookCreateGoogleBooksDialog",
             "NAME": "Find on Google Books",
             "SHORT_DESCRIPTION": "",
-            "CONFIG_UXON": "{\"widget\":{\"widget_type\":\"Dialog\",\"object_alias\":\"axenox.GoogleBooksConnector.BOOK\",\"maximized\":true,\"widgets\":[{\"widget_type\":\"DataTableResponsive\",\"paginator\":{\"count_all_rows\":true,\"page_size\":20},\"filters\":[{\"attribute_alias\":\"isbn\",\"include_in_quick_search\":true},{\"attribute_alias\":\"title\"},{\"attribute_alias\":\"authors\"},{\"attribute_alias\":\"language\"}],\"columns\":[{\"attribute_alias\":\"title\"},{\"attribute_alias\":\"authors:LIST\"},{\"attribute_alias\":\"publisher\"},{\"attribute_alias\":\"publishedYear\"},{\"attribute_alias\":\"language\"},{\"attribute_alias\":\"isbn\"},{\"attribute_alias\":\"pageCount\"},{\"attribute_alias\":\"description\",\"visibility\":\"hidden\"}],\"buttons\":[{\"caption\":\"Add to my books\",\"visibility\":\"promoted\",\"action\":{\"alias\":\"exface.Core.ShowObjectCreateDialog\",\"object_alias\":\"axenox.BookClub.book\",\"prefill_with_input_data\":true,\"input_mapper\":{\"to_object_alias\":\"axenox.BookClub.book\",\"column_to_column_mappings\":[{\"from\":\"title\",\"to\":\"title\"},{\"from\":\"publisher\",\"to\":\"publisher\"},{\"from\":\"publishedYear\",\"to\":\"year\"},{\"from\":\"pageCount\",\"to\":\"pages\"},{\"from\":\"authors:LIST\",\"to\":\"author\"},{\"from\":\"isbn\",\"to\":\"isbn\"},{\"from\":\"description\",\"to\":\"description_toc\"}]}}}]}]}}",
+            "CONFIG_UXON": {
+                "widget": {
+                    "widget_type": "Dialog",
+                    "object_alias": "axenox.GoogleBooksConnector.BOOK",
+                    "maximized": true,
+                    "widgets": [
+                        {
+                            "widget_type": "DataTableResponsive",
+                            "paginator": {
+                                "count_all_rows": true,
+                                "page_size": 20
+                            },
+                            "filters": [
+                                {
+                                    "attribute_alias": "isbn",
+                                    "include_in_quick_search": true
+                                },
+                                {
+                                    "attribute_alias": "title"
+                                },
+                                {
+                                    "attribute_alias": "authors"
+                                },
+                                {
+                                    "attribute_alias": "language"
+                                }
+                            ],
+                            "columns": [
+                                {
+                                    "attribute_alias": "title"
+                                },
+                                {
+                                    "attribute_alias": "authors:LIST"
+                                },
+                                {
+                                    "attribute_alias": "publisher"
+                                },
+                                {
+                                    "attribute_alias": "publishedYear"
+                                },
+                                {
+                                    "attribute_alias": "language"
+                                },
+                                {
+                                    "attribute_alias": "isbn"
+                                },
+                                {
+                                    "attribute_alias": "pageCount"
+                                },
+                                {
+                                    "attribute_alias": "description",
+                                    "visibility": "hidden"
+                                }
+                            ],
+                            "buttons": [
+                                {
+                                    "caption": "Add to my books",
+                                    "visibility": "promoted",
+                                    "action": {
+                                        "alias": "exface.Core.ShowObjectCreateDialog",
+                                        "object_alias": "axenox.BookClub.book",
+                                        "prefill_with_input_data": true,
+                                        "input_mapper": {
+                                            "to_object_alias": "axenox.BookClub.book",
+                                            "column_to_column_mappings": [
+                                                {
+                                                    "from": "title",
+                                                    "to": "title"
+                                                },
+                                                {
+                                                    "from": "publisher",
+                                                    "to": "publisher"
+                                                },
+                                                {
+                                                    "from": "publishedYear",
+                                                    "to": "year"
+                                                },
+                                                {
+                                                    "from": "pageCount",
+                                                    "to": "pages"
+                                                },
+                                                {
+                                                    "from": "authors:LIST",
+                                                    "to": "author"
+                                                },
+                                                {
+                                                    "from": "isbn",
+                                                    "to": "isbn"
+                                                },
+                                                {
+                                                    "from": "description",
+                                                    "to": "description_toc"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
             "APP": "0x11eabf1bdc886dc6bf1b025041000001",
             "USE_IN_OBJECT_BASKET_FLAG": "0",
             "DOCS": ""

@@ -208,7 +208,9 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"50\"}"
+            "CUSTOM_DATA_TYPE": {
+                "length_max": "50"
+            }
         },
         {
             "CREATED_ON": "2020-09-09 19:37:39",

@@ -54,7 +54,14 @@
             "MODIFIED_BY_USER": "0x11ea985377357cde9853005056bee7c0",
             "UID": "0x11ebbf2489cf1d82bf24005056bee7c0",
             "BEHAVIOR": "exface\/Core\/Behaviors\/PreventDuplicatesBehavior.php",
-            "CONFIG_UXON": "{\"compare_attributes\":[\"book\",\"category\"],\"on_duplicate_single_row\":\"ignore\",\"on_duplicate_multi_row\":\"ignore\"}",
+            "CONFIG_UXON": {
+                "compare_attributes": [
+                    "book",
+                    "category"
+                ],
+                "on_duplicate_single_row": "ignore",
+                "on_duplicate_multi_row": "ignore"
+            },
             "OBJECT": "0x11eab857f08fcb74b857025041000001",
             "APP": "0x11eabf1bdc886dc6bf1b025041000001",
             "NAME": "Category unique per book",

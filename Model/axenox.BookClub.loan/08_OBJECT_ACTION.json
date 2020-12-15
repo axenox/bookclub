@@ -70,7 +70,40 @@
             "ALIAS": "ShowBookTakeDialog",
             "NAME": "Take",
             "SHORT_DESCRIPTION": "",
-            "CONFIG_UXON": "{\"input_rows_min\":1,\"icon\":\"book\",\"prefill_with_input_data\":true,\"widget\":{\"widget_type\":\"Dialog\",\"object_alias\":\"axenox.BookClub.loan\",\"caption\":\"Take a book\",\"maximized\":false,\"widgets\":[{\"attribute_alias\":\"book\",\"disabled\":true},{\"attribute_alias\":\"member\",\"value\":\"=User('member__id')\"},{\"attribute_alias\":\"taken\",\"value\":0}],\"buttons\":[{\"action_alias\":\"exface.Core.CreateData\",\"caption\":\"Take the book\",\"icon\":\"book\",\"visibility\":\"promoted\",\"align\":\"opposite\"}]}}",
+            "CONFIG_UXON": {
+                "input_rows_min": 1,
+                "icon": "book",
+                "prefill_with_input_data": true,
+                "widget": {
+                    "widget_type": "Dialog",
+                    "object_alias": "axenox.BookClub.loan",
+                    "caption": "Take a book",
+                    "maximized": false,
+                    "widgets": [
+                        {
+                            "attribute_alias": "book",
+                            "disabled": true
+                        },
+                        {
+                            "attribute_alias": "member",
+                            "value": "=User('member__id')"
+                        },
+                        {
+                            "attribute_alias": "taken",
+                            "value": 0
+                        }
+                    ],
+                    "buttons": [
+                        {
+                            "action_alias": "exface.Core.CreateData",
+                            "caption": "Take the book",
+                            "icon": "book",
+                            "visibility": "promoted",
+                            "align": "opposite"
+                        }
+                    ]
+                }
+            },
             "APP": "0x11eabf1bdc886dc6bf1b025041000001",
             "USE_IN_OBJECT_BASKET_FLAG": "0",
             "DOCS": ""
@@ -86,7 +119,34 @@
             "ALIAS": "ShowBookGiveBackDialog",
             "NAME": "Give back",
             "SHORT_DESCRIPTION": "",
-            "CONFIG_UXON": "{\"input_rows_min\":1,\"icon\":\"sign-out\",\"widget\":{\"widget_type\":\"Dialog\",\"object_alias\":\"axenox.BookClub.loan\",\"caption\":\"Give back a book\",\"maximized\":false,\"widgets\":[{\"attribute_alias\":\"given_back\",\"value\":0},{\"attribute_alias\":\"comment\"}],\"buttons\":[{\"action_alias\":\"exface.Core.UpdateData\",\"caption\":\"Give back\",\"icon\":\"sign-out\",\"visibility\":\"promoted\",\"align\":\"opposite\"}]}}",
+            "CONFIG_UXON": {
+                "input_rows_min": 1,
+                "icon": "sign-out",
+                "widget": {
+                    "widget_type": "Dialog",
+                    "object_alias": "axenox.BookClub.loan",
+                    "caption": "Give back a book",
+                    "maximized": false,
+                    "widgets": [
+                        {
+                            "attribute_alias": "given_back",
+                            "value": 0
+                        },
+                        {
+                            "attribute_alias": "comment"
+                        }
+                    ],
+                    "buttons": [
+                        {
+                            "action_alias": "exface.Core.UpdateData",
+                            "caption": "Give back",
+                            "icon": "sign-out",
+                            "visibility": "promoted",
+                            "align": "opposite"
+                        }
+                    ]
+                }
+            },
             "APP": "0x11eabf1bdc886dc6bf1b025041000001",
             "USE_IN_OBJECT_BASKET_FLAG": "0",
             "DOCS": ""

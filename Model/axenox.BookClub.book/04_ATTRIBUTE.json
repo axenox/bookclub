@@ -181,10 +181,16 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": "{\"widget_type\":\"InputSelect\"}",
+            "DEFAULT_EDITOR_UXON": {
+                "widget_type": "InputSelect"
+            },
             "COPY_WITH_RELATED_OBJECT": "0",
             "DELETE_WITH_RELATED_OBJECT": "0",
-            "DEFAULT_DISPLAY_UXON": "{\"widget_type\":\"ProgressBar\",\"min\":0,\"max\":5}",
+            "DEFAULT_DISPLAY_UXON": {
+                "widget_type": "ProgressBar",
+                "min": 0,
+                "max": 5
+            },
             "COMMENTS": "",
             "NAME": "Owner's rating",
             "RELATION_CARDINALITY": "",
@@ -208,7 +214,16 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"show_values\":false,\"values\":{\"1\":1,\"2\":2,\"3\":3,\"4\":4,\"5\":5}}"
+            "CUSTOM_DATA_TYPE": {
+                "show_values": false,
+                "values": {
+                    "1": 1,
+                    "2": 2,
+                    "3": 3,
+                    "4": 4,
+                    "5": 5
+                }
+            }
         },
         {
             "CREATED_ON": "2020-09-09 17:14:37",
@@ -224,7 +239,9 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": "{\"widget_type\":\"InputComboTable\"}",
+            "DEFAULT_EDITOR_UXON": {
+                "widget_type": "InputComboTable"
+            },
             "COPY_WITH_RELATED_OBJECT": "0",
             "DELETE_WITH_RELATED_OBJECT": "0",
             "DEFAULT_DISPLAY_UXON": null,
@@ -251,7 +268,9 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"100\"}"
+            "CUSTOM_DATA_TYPE": {
+                "length_max": "100"
+            }
         },
         {
             "CREATED_ON": "2020-09-09 17:14:37",
@@ -267,7 +286,9 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": "{\"widget_type\":\"InputComboTable\"}",
+            "DEFAULT_EDITOR_UXON": {
+                "widget_type": "InputComboTable"
+            },
             "COPY_WITH_RELATED_OBJECT": "0",
             "DELETE_WITH_RELATED_OBJECT": "0",
             "DEFAULT_DISPLAY_UXON": null,
@@ -294,7 +315,9 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"200\"}"
+            "CUSTOM_DATA_TYPE": {
+                "length_max": "200"
+            }
         },
         {
             "CREATED_ON": "2020-09-09 17:14:37",
@@ -337,7 +360,9 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"13\"}"
+            "CUSTOM_DATA_TYPE": {
+                "length_max": "13"
+            }
         },
         {
             "CREATED_ON": "2020-09-09 17:14:37",
@@ -423,7 +448,9 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"100\"}"
+            "CUSTOM_DATA_TYPE": {
+                "length_max": "100"
+            }
         },
         {
             "CREATED_ON": "2020-09-09 17:14:37",
@@ -638,7 +665,9 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"10\"}"
+            "CUSTOM_DATA_TYPE": {
+                "length_max": "10"
+            }
         },
         {
             "CREATED_ON": "2020-09-10 11:43:15",
@@ -654,7 +683,9 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": "{\"widget_type\":\"InputComboTable\"}",
+            "DEFAULT_EDITOR_UXON": {
+                "widget_type": "InputComboTable"
+            },
             "COPY_WITH_RELATED_OBJECT": "0",
             "DELETE_WITH_RELATED_OBJECT": "0",
             "DEFAULT_DISPLAY_UXON": null,
@@ -681,7 +712,9 @@
             "DATA_ADDRESS_PROPS": null,
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": "{\"length_max\":\"50\"}"
+            "CUSTOM_DATA_TYPE": {
+                "length_max": "50"
+            }
         },
         {
             "CREATED_ON": "2020-09-11 16:39:14",

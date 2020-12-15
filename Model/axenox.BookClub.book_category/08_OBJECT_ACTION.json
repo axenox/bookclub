@@ -70,7 +70,35 @@
             "ALIAS": "ShowBookAddCategoryDialog",
             "NAME": "Add categories",
             "SHORT_DESCRIPTION": "",
-            "CONFIG_UXON": "{\"alias\":\"exface.Core.ShowDialog\",\"widget\":{\"widget_type\":\"Dialog\",\"object_alias\":\"axenox.BookClub.book_category\",\"columns_in_grid\":1,\"height\":\"auto\",\"widgets\":[{\"attribute_alias\":\"book\",\"disabled\":true},{\"attribute_alias\":\"category\",\"widget_type\":\"InputComboTable\",\"multi_select\":true}],\"buttons\":[{\"caption\":\"=TRANSLATE('exface.Core', 'ACTION.GENERIC.ADD')\",\"icon\":\"plus\",\"action_alias\":\"exface.Core.CreateData\",\"visibility\":\"promoted\",\"align\":\"opposite\"}]}}",
+            "CONFIG_UXON": {
+                "alias": "exface.Core.ShowDialog",
+                "widget": {
+                    "widget_type": "Dialog",
+                    "object_alias": "axenox.BookClub.book_category",
+                    "columns_in_grid": 1,
+                    "height": "auto",
+                    "widgets": [
+                        {
+                            "attribute_alias": "book",
+                            "disabled": true
+                        },
+                        {
+                            "attribute_alias": "category",
+                            "widget_type": "InputComboTable",
+                            "multi_select": true
+                        }
+                    ],
+                    "buttons": [
+                        {
+                            "caption": "=TRANSLATE('exface.Core', 'ACTION.GENERIC.ADD')",
+                            "icon": "plus",
+                            "action_alias": "exface.Core.CreateData",
+                            "visibility": "promoted",
+                            "align": "opposite"
+                        }
+                    ]
+                }
+            },
             "APP": "0x11eabf1bdc886dc6bf1b025041000001",
             "USE_IN_OBJECT_BASKET_FLAG": "0",
             "DOCS": ""

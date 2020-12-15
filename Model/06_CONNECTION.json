@@ -60,7 +60,14 @@
             "APP": "0x11eabf1bdc886dc6bf1b025041000001",
             "LABEL": "BookClub DB (local)",
             "CONNECTOR": "exface\/Core\/DataConnectors\/MySqlConnector.php",
-            "CONFIG": "{\"host\":\"127.0.0.1\",\"dbase\":\"axenox_bookclub\",\"user\":\"root\",\"character_set\":\"utf8\",\"password\":\"\",\"relation_matcher\":\"\\\/(?<alias>(?<table>.*))_(?<key>id)\\\/i\"}",
+            "CONFIG": {
+                "host": "127.0.0.1",
+                "dbase": "axenox_bookclub",
+                "user": "root",
+                "character_set": "utf8",
+                "password": "",
+                "relation_matcher": "\/(?<alias>(?<table>.*))_(?<key>id)\/i"
+            },
             "READONLY": "0",
             "ALIAS": "BOOKCLUB_DB_LOCAL",
             "FILTER_CONTEXT": null
