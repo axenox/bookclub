@@ -250,7 +250,7 @@
             "SHORT_DESCRIPTION": "",
             "DATA_ADDRESS_PROPS": "{\"SQL_DATA_TYPE\":\"binary\"}",
             "DEFAULT_VALUE": "",
-            "FIXED_VALUE": "=USER('id')",
+            "FIXED_VALUE": "=User('id')",
             "CUSTOM_DATA_TYPE": null
         },
         {
@@ -292,7 +292,7 @@
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
             "DATA_ADDRESS_PROPS": "{\"SQL_DATA_TYPE\":\"binary\"}",
-            "DEFAULT_VALUE": "=USER('id')",
+            "DEFAULT_VALUE": "=User('id')",
             "FIXED_VALUE": "",
             "CUSTOM_DATA_TYPE": null
         },

@@ -134,7 +134,7 @@
                                             },
                                             {
                                                 "attribute_alias": "owner",
-                                                "value": "=USER('member__id')"
+                                                "value": "=User('member__id')"
                                             }
                                         ]
                                     },

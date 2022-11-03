@@ -90,7 +90,7 @@
                     ],
                     "buttons": [
                         {
-                            "caption": "=TRANSLATE('exface.Core', 'ACTION.GENERIC.ADD')",
+                            "caption": "=Translate('exface.Core', 'ACTION.GENERIC.ADD')",
                             "icon": "plus",
                             "action_alias": "exface.Core.CreateData",
                             "visibility": "promoted",
