@@ -2,7 +2,7 @@
 	"name" : "axenox/bookclub",
 	"require" : {
 		"exface/core" : "^1.0",
-		"axenox/googlebooksconnector" : "0.2"
+		"axenox/googlebooksconnector" : "*"
 	},
 	"autoload" : {
 		"psr-4" : {
