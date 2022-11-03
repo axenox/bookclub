@@ -1,25 +1,25 @@
 {
-    "name": "axenox/bookclub",
-    "require": {
-        "exface/core": "^1.0",
-        "axenox/googlebooksconnector": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "\\axenox\\BookClub\\": ""
-        },
-        "exclude-from-classmap": [
-            "/Config/",
-            "/Translations/",
-            "/Model/"
-        ]
-    },
-    "extra": {
-        "app": {
-            "app_uid": "0x11eabf1bdc886dc6bf1b025041000001",
-            "app_alias": "axenox.BookClub",
-            "model_md5": "9f00f867ae374e98574880ac0f1dd9a3",
-            "model_timestamp": "2020-10-15 10:58:08"
-        }
-    }
+	"name" : "axenox/bookclub",
+	"require" : {
+		"exface/core" : "^1.0",
+		"axenox/googlebooksconnector" : "0.2"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"\\axenox\\BookClub\\" : ""
+		},
+		"exclude-from-classmap" : [
+			"/Config/",
+			"/Translations/",
+			"/Model/"
+		]
+	},
+	"extra" : {
+		"app" : {
+			"app_uid" : "0x11eabf1bdc886dc6bf1b025041000001",
+			"app_alias" : "axenox.BookClub",
+			"model_md5" : "9f00f867ae374e98574880ac0f1dd9a3",
+			"model_timestamp" : "2020-10-15 10:58:08"
+		}
+	}
 }
